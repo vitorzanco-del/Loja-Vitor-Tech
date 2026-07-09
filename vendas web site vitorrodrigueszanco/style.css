@@ -1,0 +1,47 @@
+*{
+    /*aqui deixa a cor do inicio do contato e o produto em azul de fundo*/
+    background-color: rgb(100, 135, 231);
+}
+
+div #Ryzen{
+    padding: 15px;
+    
+/*aqui deixa mais bonito igual o de baixo*/
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    /*aqui é o desine dos produtos deixa mais bonita a pagina*/
+}
+.placa-video,
+.Ryzen,
+.ssd1,
+.placa-mae,
+.mouse1,
+.tecaldo2{
+    width: 340px;
+    background: #ced7f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* aqui vai deixar a pagna contatos em azul */
+.contato {
+    background-color: #0048ff; 
+    color: rgb(113, 164, 206);
+    padding: 30px;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto; 
+}
+/*aqui muda todos os titulos e poe cor e uma barra*/
+h1 {
+color: #175ad8; /* vermelho */
+background-color: hsl(200, 50%, 80%); /* azul claro */
+border: 2px solid rgb(35, 0, 100); /* verde escuro */
+}
